@@ -42,7 +42,7 @@ This model took extensive time and refinement to bring together, and I can easil
 
 The V4 supports multiple build configurations:
 
-- **MX switches** (default)  
+- **MX switch** builds  
 - **Choc V1/V2 low-profile** builds  
 - Many possibilities for **multiple case designs**, I made many parts for this, and hope to keep making more!  
 
