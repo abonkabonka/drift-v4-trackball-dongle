@@ -85,7 +85,7 @@ If you want the right half to stay in mouse mode:
 ---
 
 ### 🎥 Extra 3D Navigation Functions (Optional)
-For users working in **Blender, Fusion 360, CAD**, and other 3D programs, Drift V4 includes two special macros:
+For users working in **3D programs**, Drift V4 includes two special macros:
 
 #### 🌀 Orbit
 - **Key:** `.` (period)
