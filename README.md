@@ -8,7 +8,8 @@ This version keeps the familiar shape of previous Drift models while introducing
 
 ## 🆕 Key Features
 
-- Includes a **dongle** for improved wireless functionality  
+- ZMK Studio enabled, and can also be keymapped using [Nick Coutsos' Editor](https://github.com/nickcoutsos/keymap-editor)  
+- Connects through a **dongle** for improved wireless functionality  
 - Adds a **newly integrated trackball** for smoother control  
 - Can install sockets for **choc v1/v2 switches**
 
@@ -18,9 +19,9 @@ This version keeps the familiar shape of previous Drift models while introducing
 
 - **63 keys** total  
 - Only **5 keys fewer** than Drift V2/V3 (Originally 68 keys)  
-- Removed the **outermost columns**, but the layout still provides everything needed to easily migrate from conventioal 60%-65% keyboards  
+- Removed the **outermost columns**, but the layout still provides everything needed to easily migrate from conventioal 60%-65% keyboards.  
 - The **encoder** is now placed on the **thumb cluster**  
-- The **right half** features a **swappable trackball**, allowing you to try different materials or textures
+- The **right half** features a **swappable trackball**, allowing you to try different materials or textures.
 
 If you’ve used the Drift V2 or V3 before, you’ll adapt to this version very quickly.  
 The trackball has been smoothly integrated and is not hard to get used to.  
@@ -29,7 +30,7 @@ The trackball has been smoothly integrated and is not hard to get used to.
 
 ## 🛠️ Design Notes
 
-This model took extensive time and refinement to bring together, and I can easily call it my Masterpiece
+This model took extensive time and refinement to bring together, and I can easily call it my Masterpiece.
 
 - The **OLEDs were removed** to avoid signal interference with the MCU underneath  
 - **4-pin OLED sockets remain**, so users can reinstall displays if desired  
