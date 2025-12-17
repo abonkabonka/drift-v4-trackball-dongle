@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/badjeff
     - name: nuovotaka
       url-base: https://github.com/nuovotaka
+    - name: timception
+      url-base: https://github.com/timception
       
   projects:
     - name: zmk
@@ -17,6 +19,9 @@ manifest:
       revision: main
     - name: zmk-pointing-acceleration-alpha
       remote: nuovotaka
+      revision: main
+    - name: zmk-behavior-key-press-lip
+      remote: timception
       revision: main
       
   self:
