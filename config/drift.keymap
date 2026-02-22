@@ -106,11 +106,11 @@
         default_layer {
             display-name = "base";
             bindings = <
-&kp ESC    &kp GRAVE   &kp N1  &kp N2    &kp N3  &kp N4     &kp N5                          &kp N6  &kp N7  &kp N8     &kp N9   &kp N0            &kp BACKSPACE      &kp EQUAL
-&none      &kp TAB     &kp Q   &kp W     &kp F   &kp P      &kp G                           &kp J   &kp L   &kp U      &kp Y    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-&none      &kp LSHIFT  &kp A   &kp R     &kp S   &kp T      &kp D                           &kp H   &kp N   &kp E      &kp I    &kp O             &kp SEMICOLON      &kp SQT
-&kp LCTRL  &kp LALT    &kp Z   &kp X     &kp C   &kp V      &kp B   &kp K_MUTE  &kp K_MUTE  &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH          &kp MINUS          &kp RIGHT_BRACKET
-                               &kp LWIN  &mo 1   &kp SPACE                      &kp ENTER   &mo 2
+&kp ESC       &kp GRAVE   &kp N1  &kp N2    &kp N3  &kp N4     &kp N5                           &kp N6  &kp N7  &kp N8     &kp N9   &kp N0            &kp BACKSPACE      &kp EQUAL
+&none         &kp TAB     &kp Q   &kp W     &kp F   &kp P      &kp G                            &kp J   &kp L   &kp U      &kp Y    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&none         &kp LSHIFT  &kp A   &kp R     &kp S   &kp T      &kp D                            &kp H   &kp N   &kp E      &kp I    &kp O             &kp SEMICOLON      &kp SQT
+&kp LEFT_ALT  &kp LCTRL   &kp Z   &kp X     &kp C   &kp V      &kp B   &kp K_MUTE  &kp C_PAUSE  &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH          &kp MINUS          &kp RIGHT_BRACKET
+                                  &kp LWIN  &mo 1   &kp SPACE                      &kp ENTER    &mo 2
             >;
 
             sensor-bindings = <&enc_scroll SCRL_DOWN SCRL_UP>;
@@ -186,10 +186,10 @@
         mouse_layer {
             display-name = "mouse";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &mo SCROLL  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB3  &mkp MB1  &mkp MB2    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &pan      &orbit      &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans          &trans    &trans      &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &msc SCRL_UP    &trans    &mo SCROLL  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB3        &mkp MB1  &mkp MB2    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_DOWN  &pan      &orbit      &trans  &trans  &trans
                         &trans  &trans  &trans                  &trans  &trans
             >;
 
